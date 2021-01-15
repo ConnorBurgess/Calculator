@@ -1,10 +1,92 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Calculator</title>
 </head>
 <body>
-  <h1>Calculator</h1>
-  <script src="js/scripts.js"></script>
+    <h1>Calculator</h1>
+    <form id="interface">
+      <div class="container">
+
+        <div id="output"> </div>
+        <div class="row">
+          <div class="form-group col-6">
+            <!-- <label for="num1">1st number:</label> -->
+            <input id="num1" class="form-control" type="number">
+          </div>
+          <div class="form-group col-6">
+            <!-- <label for="num2">2nd number:</label> -->
+            <input id="num2" class="form-control" type="number">
+          </div>
+        </div>
+        <div class="row buttonSize">
+          <div class="col-3">
+            <button type="submit" id="add" class="btn operator">+</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="subtract" class="btn operator">-</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="multiply" class="btn operator">*</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="divide" class="btn operator">÷</button>
+          </div>
+        </div>
+
+        <div class="row buttonSize">
+          <div class="col-3">
+            <button type="submit" id="sevenCalc" class="btn operator">7</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="eightCalc" class="btn operator">8</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="nineCalc" class="btn operator">9</button>
+          </div>
+        </div>
+        <div class="row buttonSize">
+          <div class="col-3">
+            <button type="submit" id="fourCalc" class="btn operator">4</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="fiveCalc" class="btn operator">5</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="sixCalc" class="btn operator">6</button>
+          </div>
+        </div>
+        <div class="row buttonSize">
+          <div class="col-3">
+            <button type="submit" id="threeCalc" class="btn operator">3</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="twoCalc" class="btn operator">2</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="oneCalc" class="btn operator">1</button>
+          </div>
+        </div>
+        <div class="row buttonSize">
+          <div class="col-3">
+            <button type="submit" id="zeroCalc" class="btn operator">0</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="pointCalc" class="btn operator">.</button>
+          </div>
+          <div class="col-3">
+            <button type="submit" id="equalsCalc" class="btn operator">=</button>
+          </div>
+        </div>
+
+      </div>
+
+    </form>
+
 </body>
+
 </html>

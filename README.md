@@ -1,7 +1,7 @@
 # _Calculator_
 
 #### By Connor Burgess <connorburgesscodes@gmail.com> 
-#### Co-author OralBrown < brown.oral2015@gmail.com >
+#### Co-author Jonah Johansson >
 
 ## Technologies Used
 
@@ -17,7 +17,7 @@ _This project demonstrates use of functions through a business logic calculator_
 ## Setup/Installation Requirements
 
 * _Clone repository from [https://github.com/ConnorBurgess/Calculator.git)
-* _Open cupcake-shop.html_
+* _Open Calculator.html_
 
 
 ## Known Bugs
@@ -31,4 +31,4 @@ _This project demonstrates use of functions through a business logic calculator_
 ## Contact Information
 
 _Connorburgesscodes@gmail.com_
-_brown.oral2015@gmail.com_
+_ _

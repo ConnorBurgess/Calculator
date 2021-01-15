@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+#output {
+  font-size: 40px;
+  border: 4px solid green;
+  box-sizing: border-box;
+  width: 7vw;
+  margin-left: 100px;
+}
+.container {
+  width: 80vw;
+}
+.col-3 { 
+color: #202124;
+border: 1px solid #dadce0;
+border-radius: 4px;
+box-sizing: border-box;
+}
+.buttonSize {
+  width: 25vw;
+  border: 4px solid green;
+}
+.buttonSize button {
+  width: 5vw;
+  font-size: 14px;
+  font-family: arial;
+  border: 4px solid blue;
+}
+
+#num1 {
+  font-size: 30px;
+  font-family: Arial;
+}
